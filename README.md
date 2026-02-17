@@ -4,6 +4,8 @@ A web application that allows users to upload an image of a product and find vis
 
 🧠 Demo
 ➡️ Live App: https://visual-product-matcher-drab-nine.vercel.app/
+**Frontend**: [https://visual-product-matcher-drab-nine.vercel.app](https://visual-product-matcher-drab-nine.vercel.app)  
+**Backend API**: [https://visual-product-matcher-iytt.onrender.com](https://visual-product-matcher-iytt.onrender.com)
 
 ## 🧪 Example Images to Test
 Use these sample images to try the visual matcher:
@@ -26,11 +28,28 @@ https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg
 4. Matching products are displayed with thumbnails and basic info.
    
 🚀 Tech Stack
-Technology	Purpose
-React	Frontend UI
-JavaScript	App logic
-Node/Express / API	Backend
-Vercel	Deployment platform
+| Frontend | Backend | Database | Hosting |
+|----------|---------|----------|---------|
+| React.js | Node.js | MongoDB | Vercel (frontend) |
+| Material-UI | Express.js | MongoDB Atlas | Render (backend) |
+| Axios | Multer | | |
+
+visual-product-matcher/
+├── client/               # React frontend
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── config.js     # API configuration
+│   │   └── ...
+│   └── package.json
+│
+├── server/               # Node.js backend
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+└── README.md
 
 📌 Usage
 1. 🖼️ Click Upload or drag & drop an image.
