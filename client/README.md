@@ -25,5 +25,3 @@ A web application that helps users find visually similar products based on uploa
 - Node.js (v14 or higher)
 - MongoDB (local or Atlas)
 - npm or yarn
-
-### Step-by-Step Setup
