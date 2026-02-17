@@ -35,6 +35,7 @@ import {
 } from '@mui/icons-material';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
+import API_BASE_URL from './config';  // ✅ IMPORT ADDED
 
 function App() {
   const [activeTab, setActiveTab] = useState(0);
@@ -94,7 +95,8 @@ function App() {
       setLoading(true);
       setError('');
       
-      const response = await axios.post('http://localhost:5000/api/search/url', {
+      // ✅ FIXED: Using API_BASE_URL instead of localhost
+      const response = await axios.post(`${API_BASE_URL}/search/url`, {
         imageUrl: imageUrl
       });
       
@@ -130,7 +132,8 @@ function App() {
       setLoading(true);
       setError('');
       
-      const response = await axios.post('http://localhost:5000/api/search/image', formData, {
+      // ✅ FIXED: Using API_BASE_URL instead of localhost
+      const response = await axios.post(`${API_BASE_URL}/search/image`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
