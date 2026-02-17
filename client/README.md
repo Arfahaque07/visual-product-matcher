@@ -27,8 +27,3 @@ A web application that helps users find visually similar products based on uploa
 - npm or yarn
 
 ### Step-by-Step Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/visual-product-matcher.git
-   cd visual-product-matcher
