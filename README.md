@@ -3,7 +3,6 @@ Visual Product Matcher
 A web application that allows users to upload an image of a product and find visually similar products. It uses image similarity matching techniques to help users discover products based on visual features like color, shape, and texture — similar to visual search systems in modern e-commerce platforms.
 
 🧠 Demo
-➡️ Live App: https://visual-product-matcher-drab-nine.vercel.app/
 **Frontend**: [https://visual-product-matcher-drab-nine.vercel.app](https://visual-product-matcher-drab-nine.vercel.app)  
 **Backend API**: [https://visual-product-matcher-iytt.onrender.com](https://visual-product-matcher-iytt.onrender.com)
 
